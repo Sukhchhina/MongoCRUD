@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <Button
+        android:id="@+id/bthome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Home Screen"
+         />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Product by Name"
+        android:onClick="findProductByName" />
+
+    <Button
+        android:id="@+id/btadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add product"
+         />
+
+
+
+
+</LinearLayout>
